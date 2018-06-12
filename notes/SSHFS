@@ -1,0 +1,12 @@
+SSHFS
+   ← index
+
+• 安裝
+~$ sudo apt-get sshfs fuse
+~$ vim /etc/group  #add fuse group
+
+• 使用
+~$ sshfs root@remote.server:/source/folder/ ~/target/folder/ -p 51022 -o allow_other
+~$ sudo umount ~/target/folder/
+or
+~$ sudo fusermount -u ~/target/folder/

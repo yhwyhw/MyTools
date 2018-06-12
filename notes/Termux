@@ -1,0 +1,10 @@
+Termux
+   ← index
+
+                                     * * *
+
+# Link the Device Storage
+~$ termux-setup-storage
+
+
+

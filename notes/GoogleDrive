@@ -1,0 +1,10 @@
+GoogleDrive
+   ← index
+
+                                     * * *
+
+• Debian Opam install
+   ~$ apt-get install opam m4 libcurl4-gnutls-dev libfuse-dev libsqlite3-dev pkg-config zlib1g zlib1g-dev
+   ~$ opam init
+   ~$ opam update
+   ~$ opam install google-drive-ocamlfuse

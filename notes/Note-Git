@@ -1,0 +1,30 @@
+Note-Git
+   ← index
+
+                                     * * *
+   ◦ Part1 Git的基本顴念和操作
+   ◦ Part2 建立分支、合併和解決衝突
+   ◦ Part3 Git圖形操作介面程式
+   ◦ Part4 遠端Git檔案庫和團隊開模式
+   ◦ Part5 架設 Git Server
+      ◦ 22 利用Windows分享資料夾或是Git Daemon當成Git Server
+      ◦ 23 利用HTTP/HTTPS存取Git Server
+      ◦ 24 使用SSH認證和加密的Git Server
+   ◦ 附錄 Git使用指令一覽表
+                                     * * *
+
+   ◦ taste
+      ~$ cd /GitFolder/
+      ~$ git init
+      ~$ touch poem.txt
+      ~$ git add poem.txt
+      ~$ git status
+      ~$ git commit -m 'new file' —author='yhw <callme.naoki@gmail.com>'
+
+   ◦ 更改說明
+      ~$ git commit —amend -m 'Make new file' —author='yuhung <callme.naoki@gmail.com>'
+
+   ◦ 修改poem.txt後重新送進檔案庫
+      ~$ vim poem.txt
+      ~$ git add poem.txt
+      ~$ git commit -m '新增二行文字' —author='yuhung <callme.naoki@gmail.com>'
