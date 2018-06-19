@@ -6,6 +6,10 @@ Termux
 1)  Link the Device Storage
 ~$ termux-setup-storage
 
-
+2) Hack Tools on Android Toolss
+~$ git clone https://github.com/AnonHackerr/toolss.git
+~$ cd toolss 
+~$ chmod +x Toolss.py
+~$ python Toolss.py 
 
 
