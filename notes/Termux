@@ -3,8 +3,9 @@ Termux
 
                                      * * *
 
-# Link the Device Storage
+1)  Link the Device Storage
 ~$ termux-setup-storage
+
 
 
 
